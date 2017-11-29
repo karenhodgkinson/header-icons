@@ -12,7 +12,7 @@ header {
   background-color: #d05c2e;
   display: inline-block;
   width: 100%;
-
+  text-align: center;
 }
 
 body {
@@ -32,7 +32,7 @@ h1 {
   padding: 0;
   padding-left: .4rem;
   padding-right: .4rem;
-  float: left;
+
 }
 
 img {
@@ -55,29 +55,17 @@ img {
   padding: 0;
 }
 
-.nav a{
+.nav a {
   text-decoration: none;
   background-color: #d05c2e;
   color: #fff;
   margin: .3rem;
-  float: left;
-  clear: left;
 }
 
-.legumes {
-  float: left;
-}
-
-.cereals {
-  float: left;
-}
-
-.home {
-  float: left;
-}
-
-.cereals a:hover {
+a:hover {
   background-color: #a63f38;
-  float: left;
-  clear: left;
+}
+
+.nav li {
+  display: inline-block;
 }
